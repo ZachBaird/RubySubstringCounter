@@ -1,3 +1,8 @@
+# Dev: Zach Baird
+# Objective: 
+# This method takes a string and array of potential substrings. It counts each valid
+#   instance of a substring and returns the results as a hash.
+
 def substrings(string_to_count, dictionary)
   strings_array = string_to_count.split
   
@@ -13,7 +18,7 @@ def substrings(string_to_count, dictionary)
           results[potential_substring] += 1
         end
       end
-      
+
     end
   end
 
